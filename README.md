@@ -1,3 +1,3 @@
 # shitty-wednesday-solution
 
-```python3 solution.py```
+```python3 solve.py```
