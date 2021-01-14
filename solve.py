@@ -30,11 +30,10 @@ def printBlockPosition(filename, name, screen_region):
 	return block_pos.x, block_pos.y
 
 def jump(control):
-	key = 'down' if control == 'down' else 'up'
-	pyautogui.keyDown(key)
+	pyautogui.keyDown(control)
 	time.sleep(0.5)
-	pyautogui.keyUp(key)
-	print('KEY %s' % key)
+	pyautogui.keyUp(control)
+	print('KEY %s' % control)
 
 subprocess.Popen(TARGET)
 time.sleep(2)
