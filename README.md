@@ -1,0 +1,1 @@
+# shitty-wednesday-solution
