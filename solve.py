@@ -13,7 +13,7 @@ IMAGES_BASE_DIR = 'script_gfx'
 IMAGES = {
 		"M": ["down_0_test.png", 'down'],
 		"F": ["up_0_test.png", 'up']
-		}
+	}
 
 TARGET = 'mydude.exe'
 
@@ -62,4 +62,3 @@ while True:
 			block_pos = printBlockPosition(value[0], key, interested_region)
 			if not block_pos:
 				break
-	#time.sleep(0.3)
