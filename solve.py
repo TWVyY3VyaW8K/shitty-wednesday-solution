@@ -17,7 +17,7 @@ IMAGES = {
 
 TARGET = 'mydude.exe'
 
-JUMP_TRESHOLD = 645 #px
+JUMP_THRESHOLD = 645 #px
 
 def imageFullPath(filename):
 	return os.path.join(IMAGES_BASE_DIR, filename)
@@ -57,7 +57,7 @@ while True:
 		if not block_pos:
 			continue
 		while True:
-			if block_pos[0] < JUMP_TRESHOLD:
+			if block_pos[0] < JUMP_THRESHOLD:
 				jump(value[1])
 				break
 			block_pos = printBlockPosition(value[0], key, interested_region)
