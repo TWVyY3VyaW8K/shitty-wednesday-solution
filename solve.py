@@ -17,7 +17,7 @@ IMAGES = {
 
 TARGET = 'mydude.exe'
 
-JUMP_THRESHOLD = 645 #px
+JUMP_THRESHOLD = 634 #px
 
 def imageFullPath(filename):
 	return os.path.join(IMAGES_BASE_DIR, filename)
